@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Weather Checker</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Weather <span>Journer</span>App</h1>
+        </div>
+        <div class="weather-search">
+            <form>
+                <label for="zipcode">Search Weather</label>
+                <input type="text" name="zipcode" class="zipcode" placeholder="Enter zip code...">
+                <textarea name="fellings" id="" cols="30" rows="10" class="feelings" placeholder="Enter Your Feelings..."></textarea>
+                <input type="submit" value="Search " class="generate">
+            </form>
+        </div>
+        <div class="output">
+            <div class="entryHolder">
+                <h2 class="temp"></h2>
+                <p class="content"></p>
+                <p class="name"></p>
+                <p class="date"></p>
+            </div>
+            <div class="error"></div>
+        </div>
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
